@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayapp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtUsuario1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuário"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesse sua conta"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_below="@+id/txtUsuario1"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="35dp"
+        android:gravity="center"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Nome"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="17dp"
+        android:text="Manuel Silva"
+        android:fontFamily="@font/poppinsregular"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="RM"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="18dp"
+        android:text="12345"
+        android:fontFamily="@font/poppinsregular"
+        />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btnborder"
+        android:text="Pedir!"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="20dp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
