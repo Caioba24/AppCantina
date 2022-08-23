@@ -59,7 +59,7 @@
             android:layout_marginRight="2dp"
             android:autofillHints="name"
             android:background="@drawable/border"
-            android:elevation="2dp"
+            android:elevation="1dp"
             android:fontFamily="@font/poppinsregular"
             android:hint="@string/manuel_silva"
             android:inputType="textPersonName"
@@ -88,7 +88,7 @@
             android:layout_marginRight="2dp"
             android:autofillHints="password"
             android:background="@drawable/border"
-            android:elevation="2dp"
+            android:elevation="1dp"
             android:fontFamily="@font/poppinsregular"
             android:hint="@string/_12345"
             android:inputType="number"
@@ -106,8 +106,7 @@
             android:padding="10dp"
             android:text="Pedir!"
             android:textAllCaps="false"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
